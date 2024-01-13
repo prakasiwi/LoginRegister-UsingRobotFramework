@@ -282,4 +282,4 @@ Login With Facebook
 #     Input Text    //*[@id="identifierId"]    ssoa3055@gmail.com
 #     Sleep    5s
 #     Close Browser
-    git config --global core.editor "code -w"
+    
