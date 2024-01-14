@@ -271,15 +271,17 @@ Login With Facebook
     Sleep    5s
     Close Browser
 
-# Login With Google
-#     Open Browser    ${url}    ${web}
-#     Maximize Browser Window
-#     Sleep    2s
-#     Click Element    //*[@id="masthead"]/div[1]/div[4]/ul/li[3]/a/i
-#     Sleep    2s
-#     Click Element    //*[@id="login-form-popup"]/div[1]/div/div/div/a[2]/span
-#     Sleep    5s
-#     Input Text    //*[@id="identifierId"]    ssoa3055@gmail.com
-#     Sleep    5s
-#     Close Browser
+Login With Google
+    Open Browser    ${url}    ${web}
+    Maximize Browser Window
+    Sleep    2s
+    Click Element    //*[@id="masthead"]/div[1]/div[4]/ul/li[3]/a/i
+    Sleep    2s
+    Click Element    //*[@id="login-form-popup"]/div[1]/div/div/div/a[2]/span
+    Sleep    5s
+    Input Text    //*[@id="identifierId"]    ssoa3055@gmail.com
+    Sleep    10s
+    Click Element    //*[@id="identifierNext"]/div/button/span
+    Sleep    5s
+    Close Browser
     
